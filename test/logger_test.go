@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/merlin-foundation/log4j.git/logger"
-	"github.com/merlin-foundation/log4j.git/model"
+	"github.com/merlin-foundation/log4j/logger"
+	"github.com/merlin-foundation/log4j/model"
 )
 
 var _logger model.Logger
