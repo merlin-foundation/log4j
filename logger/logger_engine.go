@@ -6,8 +6,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/merlin-foundation/log4j.git/enum"
-	"github.com/merlin-foundation/log4j.git/model"
+	"github.com/merlin-foundation/log4j/enum"
+	"github.com/merlin-foundation/log4j/model"
 )
 
 var levelLog = enum.LoggerLevel
