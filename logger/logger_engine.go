@@ -3,7 +3,6 @@ package logger
 import (
 	"encoding/json"
 	"log"
-	"os"
 	"time"
 
 	"github.com/merlin-foundation/log4j/enum"
@@ -59,12 +58,12 @@ func Debug(Message string) string {
 	return string(respondWithJSON(logger))
 }
 
-//Stdout func
+/*//Stdout func
 func Stdout(logger string) {
 	log.SetFlags(0)
 	log.SetOutput(os.Stdout)
 	log.Println(logger)
-}
+}*/
 
 func formatTime(time time.Time) string {
 	return time.Format("02-Jan-2006 03:04:05 PM -0700")
